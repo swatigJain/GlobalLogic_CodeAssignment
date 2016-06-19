@@ -1,0 +1,42 @@
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\bin\Debug\CodeAssignment.exe.config
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\bin\Debug\CodeAssignment.exe
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\bin\Debug\CodeAssignment.pdb
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\bin\Debug\Newtonsoft.Json.dll
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\bin\Debug\Newtonsoft.Json.xml
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.csprojResolveAssemblyReference.cache
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\MainWindow.g.cs
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\View\PostListView.g.cs
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\App.g.cs
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment_MarkupCompile.cache
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment_MarkupCompile.lref
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\MainWindow.baml
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\View\PostListView.baml
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.g.resources
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.Properties.Resources.resources
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.csproj.GenerateResource.Cache
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.exe
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.pdb
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\View\PostInfoView.g.cs
+c:\users\prateek\documents\visual studio 2015\Projects\CodeAssignment\CodeAssignment\obj\Debug\View\PostInfoView.baml
+D:\CodeAssignment\CodeAssignment\bin\Debug\CodeAssignment.exe.config
+D:\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.exe
+D:\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.pdb
+D:\CodeAssignment\CodeAssignment\bin\Debug\CodeAssignment.exe
+D:\CodeAssignment\CodeAssignment\bin\Debug\CodeAssignment.pdb
+D:\CodeAssignment\CodeAssignment\bin\Debug\Newtonsoft.Json.dll
+D:\CodeAssignment\CodeAssignment\bin\Debug\Newtonsoft.Json.xml
+D:\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.csprojResolveAssemblyReference.cache
+D:\CodeAssignment\CodeAssignment\obj\Debug\MainWindow.g.cs
+D:\CodeAssignment\CodeAssignment\obj\Debug\View\PostInfoView.g.cs
+D:\CodeAssignment\CodeAssignment\obj\Debug\View\PostListView.g.cs
+D:\CodeAssignment\CodeAssignment\obj\Debug\App.g.cs
+D:\CodeAssignment\CodeAssignment\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment_MarkupCompile.cache
+D:\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment_MarkupCompile.lref
+D:\CodeAssignment\CodeAssignment\obj\Debug\MainWindow.baml
+D:\CodeAssignment\CodeAssignment\obj\Debug\View\PostInfoView.baml
+D:\CodeAssignment\CodeAssignment\obj\Debug\View\PostListView.baml
+D:\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.g.resources
+D:\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.Properties.Resources.resources
+D:\CodeAssignment\CodeAssignment\obj\Debug\CodeAssignment.csproj.GenerateResource.Cache

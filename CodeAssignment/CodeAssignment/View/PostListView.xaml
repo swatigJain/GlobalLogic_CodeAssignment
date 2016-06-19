@@ -1,0 +1,70 @@
+﻿<Window x:Class="CodeAssignment.View.PostListView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CodeAssignment.View"
+        xmlns:post="clr-namespace:CodeAssignment.ViewModel"
+        xmlns:Converter="clr-namespace:CodeAssignment.Converter"
+        mc:Ignorable="d"
+        Title="PostListView">
+    
+
+    <Window.Resources>
+        <Converter:BoolToVisibility x:Key="BoolTOVis"></Converter:BoolToVisibility>
+            
+        <post:PostListVM x:Key="PostListVmKey"></post:PostListVM>
+        <Style TargetType="{x:Type GridViewColumnHeader}" x:Key="MyHeaderStyle">
+            <Setter Property="Background" Value="Black" />
+            <Setter Property="Foreground" Value="White" />
+            
+        </Style>
+
+        <Style x:Key="CustomListViewItemStyle" TargetType="{x:Type ListViewItem}">
+            <Style.Triggers>
+                <Trigger Property="ItemsControl.AlternationIndex" Value="0">
+                    <Setter Property="Background" Value="Beige"></Setter>
+                </Trigger>
+                <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                    <Setter Property="Background" Value="Black"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    
+    <Grid DataContext="{Binding Source={StaticResource PostListVmKey}}" Margin="20,10,10,20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="16" Text="Post Details" HorizontalAlignment="Center" Grid.Row="0" Grid.ColumnSpan="2"></TextBlock>
+        <ListView  ItemContainerStyle="{DynamicResource CustomListViewItemStyle}"
+ ItemsSource="{Binding PostList}"  Grid.Column="0" SelectedValue="{Binding PostItem}" Grid.Row="1" SelectedValuePath="{Binding id}">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{DynamicResource MyHeaderStyle}">
+                    <GridViewColumn  Width="50" DisplayMemberBinding="{Binding userId}">
+                        <GridViewColumnHeader Content="User Id" 
+                              Command="{Binding SortByUserId}" 
+                              CommandParameter="userId" />
+
+                    </GridViewColumn>
+                    <GridViewColumn Width="50" DisplayMemberBinding="{Binding id}">
+                        <GridViewColumnHeader Content="Post Id" 
+                              Command="{Binding SortByPostId}" 
+                              CommandParameter="userId" />
+                    </GridViewColumn>
+                    <GridViewColumn Width="Auto"  DisplayMemberBinding="{Binding title}">
+                        <GridViewColumnHeader Content="Title" 
+                              Command="{Binding SortByTitle}" 
+                              CommandParameter="userId" />
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <local:PostInfoView Grid.Column="1" Margin="40,0,40,0" Grid.Row="1" Height="500" Visibility="{Binding IsPostInfoVisible, Converter={StaticResource BoolTOVis}}"></local:PostInfoView>
+    </Grid>
+</Window>
